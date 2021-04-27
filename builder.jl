@@ -21,12 +21,8 @@ platforms = [
   Linux(:x86_64),
   Windows(:x86_64),
   MacOS(:x86_64),
+  # TODO: Handle MacOS(:aarch64) by creating 2 Artifacts.toml
 ]
-
-try # Is not supported on earlier Julia versions
-  push!(platforms, MacOS(:aarch64))
-catch
-end
 
 mktempdir() do temp_path
   for platform in platforms
