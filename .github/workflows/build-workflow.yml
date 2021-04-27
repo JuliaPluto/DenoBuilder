@@ -16,7 +16,8 @@ jobs:
       - name: Transform script
         run: julia --project --color=yes builder.jl
       - name: Release
+        uses: softprops/action-gh-release@v1
         with:
           files: build/**
-        end:
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
