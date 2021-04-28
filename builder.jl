@@ -1,8 +1,7 @@
 using Pkg.Artifacts
 using Pkg.BinaryPlatforms
 
-deno_version = v"1.9.2"
-build_number = 3
+include("./deno_version.jl")
 
 # Where the GitHub release files will be located
 build_path = joinpath(pwd(), "build/")
