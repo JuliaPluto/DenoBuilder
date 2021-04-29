@@ -53,7 +53,7 @@ mktempdir() do temp_path
     archive_dest = joinpath(build_path, archive_name)
     download_hash = archive_artifact(artifact_hash, archive_dest)
 
-    github_url = "https://github.com/Pangoraw/Deno.jl/releases/download/v$deno_version-$build_number/$archive_name"
+    github_url = "https://github.com/Pangoraw/DenoBuilder/releases/download/v$deno_version-$build_number/$archive_name"
     bind_artifact!(artifacts_toml, "deno_exe", artifact_hash; platform=platform, force=true, download_info=[
       (github_url, download_hash)
     ])
