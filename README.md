@@ -1,7 +1,7 @@
 # DenoBuilder
 
 This repository contains a script to download the released versions of deno from 
-its [release page](https://github.com/denoland/deno/releases) and re-upload them as tarballs compatible with Julia's artifacts system. It is used as part of [Deno.jl](https://github.com/Pangoraw/Deno.jl).
+its [release page](https://github.com/denoland/deno/releases) and re-upload them as tarballs compatible with Julia's artifacts system. It is used as part of [Deno.jl](https://github.com/JuliaPluto/Deno.jl).
 
 ### New release
 
