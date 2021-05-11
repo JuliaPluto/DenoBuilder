@@ -1,3 +1,5 @@
+## ℹ️ Archived in favor of [Deno_jll.jl](https://github.com/JuliaBinaryWrappers/Deno_jll.jl) ℹ️
+
 # DenoBuilder
 
 This repository contains a script to download the released versions of deno from 
